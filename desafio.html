@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Solicite seu nome: <input id="ip_nome" type="text" placeholder="Seu nome"><br>
+    Seu numero da sorte entre 1 e 10: <input id="ip_numero" type="text" placeholder="Numero da sorte"><br>
+    <button onclick="sortear()">Sortear</button>
+</body>
+</html>
+<script>
+    function sortear(){
+        var nome = ip_nome.value
+        var numerosorte = ip_numero.value
+        if (numerosorte >= 1 && numerosorte <= 10) {
+            
+        }else{
+            alert(`Número não está entre os numeros selecionados`)
+        }
+    }
+</script>
