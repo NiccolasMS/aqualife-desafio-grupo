@@ -19,14 +19,14 @@
     
 
     function sortear(){
-        qtdsorteios ++;
         var nome = ip_nome.value
         var numerosorte = ip_numero.value
         var numrandom = Math.random()*(10-1)+1;
         if (numerosorte >= 1 && numerosorte <= 10) {
+            qtdsorteios ++;
            //div1.innerHTML += `${numrandom.toFixed()}`
             if (numrandom.toFixed() == numerosorte) {
-               div1.innerHTML = `Parabéns, ${nome}você foi sorteado(a) após ${qtdsorteios} sorteios!`;
+               div1.innerHTML = `Parabéns, ${nome} você foi sorteado(a) após ${qtdsorteios} sorteios!`;
 
             }
         }
