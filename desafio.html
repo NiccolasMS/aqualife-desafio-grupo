@@ -24,14 +24,14 @@
         var numerosorte = ip_numero.value
         var numrandom = Math.random()*(10-1)+1;
         if (numerosorte >= 1 && numerosorte <= 10) {
-            div1.innerHTML = `${numrandom.toFixed()}`}
-            
-            if (numrandom.toFixed() ==numerosorte ) {
-               div1.innerHTML = `Parabéns, ${nome}você foi sorteado(a) após ${qtdsorteios} sorteios!`
+           //div1.innerHTML += `${numrandom.toFixed()}`
+            if (numrandom.toFixed() == numerosorte) {
+               div1.innerHTML = `Parabéns, ${nome}você foi sorteado(a) após ${qtdsorteios} sorteios!`;
 
             }
+        }
             else{
-                alert("esse numero não é valido")
+                alert("esse numero não é valido");
             }
           
         
